@@ -1,0 +1,105 @@
+/*  #0000ff
+    rgb (0,0,255)
+    blue  */
+
+body {
+    background: linear-gradient(rgb(3, 3, 90), rgb(37, 37, 172));
+    min-height: 600px;
+    justify-content: center;
+    display: flex;
+}   
+
+label {
+    color: white;
+    font-size: 45px;
+    justify-content: center;
+    display: flex;    
+}
+
+.main {
+    max-width: 400px;
+    margin-top: 100px;
+    width: 200px;
+    height : 300px;
+    padding: 20px;
+    border: 2px solid #ff0000; 
+    border-radius: 12px;
+    box-shadow: 30px 20px 130px rgba (100, 2, 2, 0.2);
+    background-color: rgb(5, 191, 238);
+    transition: box-shadow 0.3s ease;
+}
+input{
+    width : 150px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px ;
+    margin-left: 12px;
+}
+
+button {
+    width : 100px;
+    height: 30px;
+    background-color: rgb(15, 15, 109);
+    color: white;
+    margin: 50px;
+}
+
+p {
+    color : rgb(255, 255, 255);
+    height: 30px;
+    background-color: black;
+}
+
+a {
+    background-color: rgb(62, 165, 235);
+    height: 20px;
+    border: 2px solid purple;
+    border-radius : 12px;
+    justify-content: center;
+    display: flex;
+}
+
+.urunler {
+    background-color: aquamarine;
+    width: 250px;
+    height: 50%;
+    color: rgb(4, 12, 5);
+    border: 2px  #111010;
+    border-radius: 2px;
+}
+
+.sil {
+    background-color: #ff0000; /* Kırmızı arka plan */
+    color: #ffffff; /* Beyaz yazı rengi */
+    font-weight: bold; /* Kalın yazı stili */
+    padding: 10px 15px; /* Butonun içeriğinden dolayı padding ayarlandı */
+    border: none; /* Kenarlık yok */
+    border-radius: 8px;
+    cursor: pointer; /* İmleci el işareti yap */
+}
+
+.güncelle {
+    background-color: #0077cc; /* Açık mavi arka plan */
+    color: #ffffff; /* Beyaz yazı rengi */
+    font-weight: bold; /* Kalın yazı stili */
+    padding: 10px 15px; /* Butonun içeriğinden dolayı padding ayarlandı */
+    border: none; /* Kenarlık yok */
+    border-radius: 8px;
+    cursor: pointer; /* İmleci el işareti yap */
+}
+
+.form{  
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inputbuton{
+    width: 100%;
+    height: 15px;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
